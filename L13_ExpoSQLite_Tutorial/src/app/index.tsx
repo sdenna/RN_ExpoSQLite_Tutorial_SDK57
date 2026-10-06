@@ -1,3 +1,4 @@
+import ItemRow from "@/components/ItemRow";
 import { useSQLiteContext } from "expo-sqlite";
 import { useEffect, useState } from "react";
 import {
@@ -9,7 +10,6 @@ import {
   View,
 } from "react-native";
 import { fetchItems, insertItem, type Item } from "../data/db";
-import ItemRow from "./components/ItemRow";
 
 export default function App() {
   /**
