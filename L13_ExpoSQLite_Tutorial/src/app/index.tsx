@@ -126,6 +126,7 @@ export default function App() {
         keyboardType="numeric" shows a number keyboard on mobile devices.
         Note: This doesn't prevent non-numeric input, so we still validate in saveItem().
       */}
+
       <TextInput
         style={styles.input}
         placeholder="Quantity"
